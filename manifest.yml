@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: leeds-test-toolchain-app
+  host: leeds-test-toolchain-app
+  disk_quota: 1024M
+  services:
+  - leeds-test-toolchain-app-cloudantNoSQLDB
